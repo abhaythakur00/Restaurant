@@ -153,7 +153,8 @@ body {
   transform-origin: inherit;
 }
 
-.con4{
+@media only  screen and (min-width:600px) {
+  .con4{
   background: url(img-3.png) no-repeat fixed center;
   /* width: 100%; */
   height: 100vh;
@@ -163,6 +164,7 @@ body {
 
 
 }
+}
 .con4-card{
   width: 50%;
   /* height: 50vh; */
@@ -170,8 +172,8 @@ body {
   background-color: rgb(151, 3, 3)  ;
 
   position: absolute;
-  margin-top: 4vw;
-  padding: 2vw;
+  margin-top: 2vw;
+  padding: 3vw;
   
 
 }
@@ -576,7 +578,8 @@ form button{
   height: auto;
 }
 .con4{
-  background: url(img-3.png) no-repeat fixed center;
+  /* background: url(img-3.png) no-repeat fixed center; */
+  background-color: black;
   /* width: 100%; */
   height: 100vh;
   /* object-fit: cover; */
@@ -584,5 +587,11 @@ form button{
   padding: 5vw;
 
 
+}
+input[type=date] {
+  padding: 3vw;
+}
+input[type=time] {
+  padding: 3vw;
 }
 }
