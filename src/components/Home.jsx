@@ -138,7 +138,7 @@ function Home() {
 
 <div className="cardd-second">
   <div className="cardd-1">
-<img src="gol.cms" alt="" />
+<img src="gol.jpeg" alt="" />
 <div className="cardd-text"><p>Gol Gappe</p></div>
 
   </div>
